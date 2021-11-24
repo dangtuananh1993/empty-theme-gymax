@@ -1,0 +1,38 @@
+//================== Transform ============//
+.transformer(@scale) {
+    transform: @scale;
+    -webkit-transform: @scale;
+    -moz-transform: @scale;
+    -ms-transform: @scale;
+    -o-transform: @scale;
+}
+
+//================== Transition ============//
+.transit(@attr, @set) {
+    transition: @attr, @set;
+    -webkit-transition: @attr, @set;
+    -moz-transition: @attr, @set;
+    -ms-transition: @attr, @set;
+    -o-transition: @attr, @set;
+}
+
+//==================== Col==================//
+.col(@width){
+    width: @width;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+//=============== Flexbox =============//
+.flex() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+//================ Select ===============//
+.appearance(@canet) {
+    appearance: @canet;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

@@ -1,0 +1,63 @@
+2021-11-04T06:37:12+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\anhdt\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\anhdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhdt\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-04T06:38:27+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\anhdt\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\anhdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\anhdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\anhdt\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\anhdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-04T14:03:35+00:00 CRITICAL Uncaught Error: Undefined constant "WC_Wishlists_Plugin" in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php:221
+Stack trace:
+#0 C:\xampp\htdocs\anhdt\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\anhdt\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhdt\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhdt\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\anhdt\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php on line 221
+
+2021-11-04T14:04:02+00:00 CRITICAL Uncaught Error: Undefined constant "WC_Wishlists_Plugin" in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php:221
+Stack trace:
+#0 C:\xampp\htdocs\anhdt\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\anhdt\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhdt\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhdt\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php on line 221
+
+2021-11-04T14:05:47+00:00 CRITICAL Uncaught Error: Undefined constant "WC_Wishlists_Plugin" in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php:221
+Stack trace:
+#0 C:\xampp\htdocs\anhdt\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\anhdt\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhdt\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhdt\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php on line 221
+
+2021-11-04T14:06:03+00:00 CRITICAL Uncaught Error: Undefined constant "WC_Wishlists_Plugin" in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php:221
+Stack trace:
+#0 C:\xampp\htdocs\anhdt\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\anhdt\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anhdt\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anhdt\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\functions.php on line 221
+
+2021-11-04T14:11:09+00:00 CRITICAL Cannot redeclare action_woocommerce_after_shop_loop_item_title() (previously declared in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\page-home.php:261) in C:\xampp\htdocs\anhdt\wp-content\themes\emptytheme\page-home.php on line 260
+

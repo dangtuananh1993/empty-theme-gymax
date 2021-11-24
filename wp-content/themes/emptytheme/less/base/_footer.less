@@ -1,0 +1,104 @@
+.footer {
+    position: relative;
+    background-color: @bg-footer-color;
+    height: 720px;
+    &-inner {
+        padding-top: 100px;
+    }
+    &-top {
+        text-align: center;
+        height: 253px;
+        &-logo {
+        }
+        &-content {
+            font-size: 14px;
+            margin-top: 25px;
+            color: @main-color;
+            width: 64%;
+            margin-right: auto;
+            margin-left: auto;
+            line-height: 24px;
+        }
+        &-icon {
+            .ft-top-icon {
+                // margin-bottom: 65px;
+                display: inline-block;
+                margin-top: 39px;
+                color: @main-color;
+                font-size: 19px;
+                padding-left: 24px;
+                padding-right: 19px;
+                margin-bottom: 54px;
+            }
+            i {
+                font-size: 18px;
+                color: @main-color;
+            }
+        }
+    }    
+    .footer-line-outer {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1200px;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        .footer-line {
+            border-top: 1px solid @footer-line-color;
+            width: 100%;
+        }
+    }
+    &-bot {
+        .row {
+            .footer-bot-col {
+                height: 316px;
+                .col(25%);
+                .ft-title {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: @white-color;
+                    margin-bottom: 18px;
+                    margin-top: 71px;
+                    line-height: 30px;
+                }
+                .ft-detail {
+                    font-size: 14px;
+                    font-weight: 400;
+                    i {
+                        margin-right: 15px;
+                        font-size: 14px;
+                        color: @main-color;
+                    }
+                    a {
+                        font-size: 14px;
+                        color: @main-color;
+                        line-height: 24px;
+                    }
+                    .detail-1 {
+                        line-height: 40px;
+                    }
+                } 
+            }
+            
+        }
+    }
+    .copyright {
+        text-align: center;
+        font-size: 14px;
+        background-color: @bg-copyright-color;
+        color: @main-color;
+        min-height: 50px;
+        box-sizing: border-box;
+        height: auto;
+        .copyright-content {
+            width: 85%;
+            padding-top: 14.5px;
+            padding-bottom: 14.5px;
+            background-color: @bg-copyright-color;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
